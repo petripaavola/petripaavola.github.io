@@ -5,7 +5,7 @@ subtitle: Analyze Intune logs, create event Timeline and troubleshoot with LogVi
 gh-repo: petripaavola/Get-IntuneManagementExtensionDiagnostics
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png
-share-img: /assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png
+share-img: /assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1_resized.jpg
 tags: [Intune, Autopilot, Powershell]
 comments: true
 ---
