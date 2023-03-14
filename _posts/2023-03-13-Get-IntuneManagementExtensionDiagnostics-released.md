@@ -8,7 +8,7 @@ tags: [Intune, Autopilot, Powershell]
 comments: true
 ---
 
-New tool: Intune (IME) log Timeline analyzer and LogViewerUI released today:  
+New tool: Intune (IME) log Timeline **analyzer** and LogViewerUI released today:  
 [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)
 
 ![Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png](/assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png)
@@ -38,7 +38,7 @@ Tool helps a lot with Windows Autopilot and any other Intune debugging. Events a
 *  WinGetApp
 *  Powershell scripts
 *  Proactive Remediation scripts
-*  custom Compliance Policy scripts.
+*  custom Compliance Policy scripts
 
 Tool also shows Win32App download statistics and you can see if **Delivery Optimization** was working in download.  
 ![Win32App-DeliveryOptimization](/assets/img/Win32App-DeliveryOptimization.png)
