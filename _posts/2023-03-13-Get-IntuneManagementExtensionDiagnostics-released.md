@@ -11,23 +11,23 @@ comments: true
 New tool: Intune (IME) log Timeline analyzer and LogViewerUI released today:  
 [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)
 
-<img src="/assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png" width=33% height=33%>  
-<img src="/assets/img/Get-IntuneManagementExtensionDiagnostics-LogViewerUI01_1.1.png" width=33% height=33%>
+![Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png](/assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1.png)
+![Get-IntuneManagementExtensionDiagnostics-LogViewerUI01_1.1.png](/assets/img/Get-IntuneManagementExtensionDiagnostics-LogViewerUI01_1.1.png)
 
 Quick start guide:
 
 **Download script from Powershell Gallery:**  
-```Powershell
+~~~
 Save-Script Get-IntuneManagementExtensionDiagnostics -Path ./
-```
+~~~
 
 **Run script with or without -Online option:**  
-```Powershell
+```powershell
 ./Get-IntuneManagementExtensionDiagnostics.ps1 -Online
 ```
 
 **LogViewUI can be run with command:**  
-```Powershell
+```powershell
 ./Get-IntuneManagementExtensionDiagnostics.ps1 -Online -ShowLogViewerUI -ConvertAllKnownGuidsToClearText
 ```
 
