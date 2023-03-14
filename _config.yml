@@ -22,9 +22,9 @@ author: Petri Paavola
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://intune.ninja"
+    - Get-IntuneManagementExtensionDiagnostics: "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
+    - IntuneDeviceDetailsGUI: "https://github.com/petripaavola/IntuneDeviceDetailsGUI"
+  #Author's home: "https://intune.ninja"
 
 ################
 # --- Logo --- #
@@ -53,12 +53,12 @@ social-network-links:
   #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
   github: petripaavola
-  #twitter: petripaavola
+  twitter: petripaavola
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: petri-paavola
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -88,8 +88,8 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
-  linkedin: false
+  facebook: true
+  linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
@@ -109,7 +109,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
