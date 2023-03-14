@@ -11,7 +11,9 @@ CEO / Founder
 **Senior Modern Management Principal**  
 Petri.Paavola@yodamiitti.fi
 
-**Microsoft MVP / Windows and Devices for IT**  
+**[Microsoft MVP / Windows and Devices for IT](https://mvp.microsoft.com/en-us/PublicProfile/4030625?fullName=Petri%20Paavola)**  
+[Petri Paavola GitHub](https://github.com/petripaavola/Intune)  
+[LinkedIn](https://www.linkedin.com/in/petri-paavola)  
 
 Yodamiitti founder and author Petri Paavola is 12 years Microsoft MVP (Most Valuable Professional) - Windows and Devices for IT
 and has over 20 years of work experience in IT field.
