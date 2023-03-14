@@ -6,9 +6,10 @@ subtitle: Petri Paavola
 
 **Petri Paavola**  
 
-Yodamiitti Oy  
-CEO / Founded  
+[Yodamiitti Oy](https://www.yodamiitti.fi/en-us)  
+CEO / Founder  
 **Senior Modern Management Principal**  
+Petri.Paavola@yodamiitti.fi
 
 **Microsoft MVP / Windows and Devices for IT**  
 
@@ -19,7 +20,7 @@ Nowdays Petri works mostly with Modern Management technologies working daily wit
 
 Petri has also strong background in traditional on-premise Microsoft domain environments and he was earlier owner of Finland’s biggest technical university’s workstation service. Traditional technologies like Active Directory, Group Policy, ConfigMgr, MDT, Task Sequence, etc. are really familiar.
 
-Petri's goal is to help other admins do their work efficiently. That's why he has created many tools which help admins life.
+Petri's goal is to help other admins do their work efficiently. That's why he has created many tools to help admins life.
 
 **Check out these highly popular Intune tools:**  
 [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)  
