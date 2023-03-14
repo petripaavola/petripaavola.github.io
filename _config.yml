@@ -117,7 +117,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "Intune,Autopilot,Powershell,GraphAPI"
+keywords: "Microsoft,MVP,Intune,Autopilot,ConfigMgr,Co-Management,Powershell,GraphAPI"
 
 ######################################
 # --- Colours / background image --- #
@@ -125,8 +125,10 @@ keywords: "Intune,Autopilot,Powershell,GraphAPI"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+#navbar-col: "#EAEAEA"
+navbar-col: "#1b283c"
+#navbar-text-col: "#404040"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
