@@ -4,13 +4,13 @@ title: About me
 subtitle: Petri Paavola
 ---
 
-Petri Paavola  
+**Petri Paavola**  
 
 Yodamiitti Oy  
-CEO / Senior Modern Management Principal  
+CEO / Founded  
+**Senior Modern Management Principal**  
 
-Microsoft MVP  
-Windows and Devices for IT  
+**Microsoft MVP / Windows and Devices for IT**  
 
 Yodamiitti founder and author Petri Paavola is 12 years Microsoft MVP (Most Valuable Professional) - Windows and Devices for IT
 and has over 20 years of work experience in IT field.
@@ -21,9 +21,12 @@ Petri has also strong background in traditional on-premise Microsoft domain envi
 
 Petri's goal is to help other admins do their work efficiently. That's why he has created many tools which help admins life.
 
-Check out these highly popular Intune tools:
+**Check out these highly popular Intune tools:**  
 [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics)  
 This **analyzes** Intune Management Extension logs and also includes LogViewerUI with many cool features
 
 [IntuneDeviceDetailsGUI](https://github.com/petripaavola/IntuneDeviceDetailsGUI)  
 This shows device related Intune configurations and assingments in one view. It also tells **why** Configuration or Application is targeted to device.
+
+[Petri's GitHub](https://github.com/petripaavola/Intune)  
+Petri's GitHub has more tools and tips
