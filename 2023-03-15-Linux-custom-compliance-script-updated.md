@@ -19,10 +19,10 @@ GitHub page has more documentation on how script works so go and check that out.
 Bash script includes Powershell script inside which will do the actual compliance checks so prereq is to install Powershell. And why wouldn't you install Powershell to your Linux anyway ?-)
 
 ## Custom Compliance checks in this version:
-*	**Powershell is installed**
-*	**Powershell version**
+* **Powershell is installed**
+* **Powershell version**
   * 7.3.3 minimum currently configured in json
-*	**Reboot Required check**
+* **Reboot Required check**
   * file should not exist /var/run/reboot-required)
 * **MS Edge**
   * Check MS Edge is installed
@@ -34,7 +34,7 @@ Bash script includes Powershell script inside which will do the actual complianc
   *	Check Kernel patch level
   *	Check Kernel flavour
   *	Check Kernel tainted state
-*	**SecureBoot status**
+* **SecureBoot status**
   * require SecureBoot configured in json
 * **sysctrl values** (placeholder to check any value)
   *	user.max_user_namespaces
