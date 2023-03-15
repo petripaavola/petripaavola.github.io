@@ -16,7 +16,7 @@ GitHub page has more documentation on how script works so go and check that out.
 
 ![Intune_Linux_CustomComplianceCheck_Compliant.png](/assets/img/Intune_Linux_CustomComplianceCheck_Compliant.png)
 
-Bash script includes Powershell script inside which will do the actual compliance checks so prereq is to install Powershell. And why wouldn't you install Powershell to you Linux anyway ?-)
+Bash script includes Powershell script inside which will do the actual compliance checks so prereq is to install Powershell. And why wouldn't you install Powershell to your Linux anyway ?-)
 
 ## Custom Compliance checks in this version:
 *	**Powershell is installed**
