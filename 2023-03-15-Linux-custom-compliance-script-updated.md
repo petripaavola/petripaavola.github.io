@@ -7,9 +7,9 @@ share-img: /assets/img/Intune_Linux_CustomComplianceCheck_Compliant.png
 tags: [Intune, Linux, Powershell]
 comments: true
 ---
-Last year I created Intune Linux Custom Compliance script and it has been running few months now without any problems.
+Last November I created Intune Linux Custom Compliance script and it has been running few months now without any problems.
 
-There are new compliance checks compared to original version so I updated script to my GitHub site.  
+There are new custom checks compared to original version so I updated script to my GitHub site.  
 
 GitHub page has more documentation on how script works so go and check that out.
 [Linux Custom Compliance script on my GitHub](https://github.com/petripaavola/Intune/tree/master/Linux)
@@ -41,7 +41,8 @@ Bash script includes Powershell script inside which will do the actual complianc
 * **gsettings values**  (placeholder to check any value)
   *	org.gnome.desktop.screensaver lock-enabled
   * org.gnome.desktop.screensaver idle-activation-enabled
-  * org.gnome.desktop.session idle-delay (10 minutes currently configured in json)
+  * org.gnome.desktop.session idle-delay
+    * 10 minutes currently configured in json
 * **Defender for Endpoint on Linux status**
   * MicrosoftDefenderForEndpointOnLinux_Installed
   * MicrosoftDefenderForEndpointOnLinux_RegisteredToOrganization
@@ -55,4 +56,4 @@ In Non-Compliant situation Intune Company Portal shows clear message which custo
 
 Go to my [GitHub site](https://github.com/petripaavola/Intune/tree/master/Linux) for the files and more documentation.
 
-I'm happy to hear your feedback for doing more custom checks in this script :)
+I'm happy to hear your feedback and ideas for other custom checks to implement to this script :)
