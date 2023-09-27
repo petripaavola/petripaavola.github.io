@@ -22,9 +22,10 @@ author: Petri Paavola
 navbar-links:
   About Me: "aboutme"
   Community Tools:
-    - Get-IntuneManagementExtensionDiagnostics: "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
+    - Get-IntuneManagementExtensionDiagnostics (Updated): "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
     - IntuneDeviceDetailsGUI: "https://github.com/petripaavola/IntuneDeviceDetailsGUI"
     - Intune Application assignment report: "https://github.com/petripaavola/Intune/tree/master/Reports"
+    - ClipboardTools (Graph API helper tools) (New): "https://github.com/petripaavola/ClipboardTools"
   #Author's home: "https://intune.ninja"
 
 ################
