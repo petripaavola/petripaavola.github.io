@@ -13,10 +13,10 @@ Petri.Paavola@yodamiitti.fi
 [GitHub](https://github.com/petripaavola)  
 [LinkedIn](https://www.linkedin.com/in/petri-paavola)  
 
-Yodamiitti founder and author Petri Paavola is 13 years Microsoft MVP (Most Valuable Professional) - Windows and Devices
-and has over 23 years of work experience in IT field.
+Yodamiitti founder and author Petri Paavola is 14 years Microsoft MVP (Most Valuable Professional) - Windows and Intune
+and has over 24 years of work experience in IT field.
 
-Nowdays Petri works mostly with Modern Management technologies working daily with **Windows Autopilot**, **Microsoft Intune** (Intune and ConfigMgr/Co-Management), Azure AD, **Powershell**, **Graph API** and Microsoft 365.
+Nowdays Petri works mostly with Modern Management technologies working daily with **Windows Autopilot**, **Microsoft Intune** (Intune and ConfigMgr/Co-Management), EntraID, **Powershell**, **Graph API** and Microsoft 365.
 
 Petri has also strong background in traditional on-premise Microsoft domain environments and he was earlier owner of Finland’s biggest technical university’s workstation service. Traditional technologies like Active Directory, Group Policy, ConfigMgr, MDT, Task Sequence, etc. are really familiar.
 
