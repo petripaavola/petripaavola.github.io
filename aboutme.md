@@ -115,55 +115,9 @@ subtitle: Petri Paavola
 		color: #4f607a;
 	}
 
-	.tools-grid {
-		display: grid;
-		gap: 14px;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	}
-
-	.tool-card {
-		border: 1px solid #dde6f1;
-		border-radius: 14px;
-		background: #fff;
-		padding: 16px;
-		box-shadow: 0 12px 24px rgba(16, 34, 56, 0.06);
-		display: flex;
-		flex-direction: column;
-	}
-
-	.tool-card h3 {
-		margin: 0 0 8px;
-		font-family: "Space Grotesk", "Segoe UI", sans-serif;
-		font-size: 1.02rem;
-	}
-
-	.tool-card .hero-html {
-		color: #c7332e;
-	}
-
-	.tool-card p {
-		margin: 0;
-		color: #4f607a;
-		line-height: 1.58;
-	}
-
-	.tool-card a {
-		margin-top: auto;
-		padding-top: 13px;
-		color: var(--accent);
-		font-family: "Space Grotesk", "Segoe UI", sans-serif;
-		font-weight: 700;
-		text-decoration: none;
-	}
-
-	.tool-card a:hover {
-		color: var(--accent-2);
-	}
-
 	@media (max-width: 767px) {
 		.about-hero,
-		.about-panel,
-		.tool-card {
+		.about-panel {
 			border-radius: 12px;
 		}
 
@@ -226,55 +180,4 @@ subtitle: Petri Paavola
 			The core mission: help admins do their work faster and better with practical tools that solve real production problems.
 		</p>
 	</section>
-
-	<h2 class="about-title">CommunityTools</h2>
-	<div class="tools-grid">
-		<article class="tool-card">
-			<h3>IntuneDeviceDetailsGUI-<span class="hero-html">HTML</span></h3>
-			<p>
-				See device-related Intune configurations and assignments in one view, with the new HTML experience highlighting why each item is targeted.
-			</p>
-			<a href="https://github.com/petripaavola/IntuneDeviceDetailsGUI">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
-			<p>
-				Analyze Intune Management Extension logs and generate a clear HTML report for faster troubleshooting and timeline analysis.
-			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>Get-WindowsTroubleshootingReportCommunity</h3>
-			<p>
-				Create a practical Windows troubleshooting report for faster investigation of device health, configuration, and support cases.
-			</p>
-			<a href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>Get-IntuneAppAssignmentsAndRelationsReport</h3>
-			<p>
-				Map Intune app assignments and relationships into a clearer report for faster analysis of targeting and dependency logic.
-			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>ClipboardTools</h3>
-			<p>
-				Use PowerShell helper tools for Graph API work plus everyday JSON, XML, and Base64 admin workflows.
-			</p>
-			<a href="https://github.com/petripaavola/ClipboardTools">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>GitHub Main Page</h3>
-			<p>
-				Browse my main GitHub page for additional community tools, scripts, experiments, and ongoing updates.
-			</p>
-			<a href="https://github.com/petripaavola">Open GitHub Profile</a>
-		</article>
-	</div>
 </div>
