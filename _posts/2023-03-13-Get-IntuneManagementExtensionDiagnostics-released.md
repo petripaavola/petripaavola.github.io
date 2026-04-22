@@ -8,6 +8,7 @@ thumbnail-img: /assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Tim
 share-img: /assets/img/Get-IntuneManagementExtensionDiagnostics-Observed_Timeline_v1.1_resized.jpg
 tags: [Intune, Autopilot, Powershell]
 comments: true
+published: false
 ---
 
 New tool: Intune (IME) log Timeline **analyzer** and LogViewerUI released today:  

@@ -6,6 +6,7 @@ thumbnail-img: /assets/img/Intune_Linux_CustomComplianceCheck_Compliant.png
 share-img: /assets/img/Intune_Linux_CustomComplianceCheck_Compliant.png
 tags: [Intune, Linux, Powershell]
 comments: true
+published: false
 ---
 Last November I created Intune Linux Custom Compliance script and it has been running few months now without any problems.
 
