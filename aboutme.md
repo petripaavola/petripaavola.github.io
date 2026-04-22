@@ -178,7 +178,8 @@ subtitle: Petri Paavola
 		<h1>Petri Paavola</h1>
 		<p>
 			CEO / Founder at <a href="https://www.yodamiitti.fi/en-us">Yodamiitti Oy</a>, Senior Modern Management Principal,
-			and Microsoft MVP - Windows and Intune.
+			and Microsoft MVP - Windows and Intune. I work mainly with Intune, Windows, and PowerShell.
+			One specialty is creating Community Tools for Intune and Windows admins.
 		</p>
 		<div class="about-meta">
 			<a class="about-pill" href="mailto:Petri.Paavola@yodamiitti.fi">Petri.Paavola@yodamiitti.fi</a>
