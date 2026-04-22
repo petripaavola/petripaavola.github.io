@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intune.ninja
-subtitle: Petri Paavola / Microsoft MVP
+subtitle: Petri Paavola / Microsoft MVP - Windows and Intune
 ---
 <style>
 	@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap");
@@ -78,6 +78,8 @@ subtitle: Petri Paavola / Microsoft MVP
 	.tool-card:nth-child(2) { animation-delay: 0.4s; }
 	.tool-card:nth-child(3) { animation-delay: 0.48s; }
 	.tool-card:nth-child(4) { animation-delay: 0.56s; }
+	.tool-card:nth-child(5) { animation-delay: 0.64s; }
+	.tool-card:nth-child(6) { animation-delay: 0.72s; }
 
 	.landing-hero {
 		margin: 8px 0 26px;
@@ -200,6 +202,10 @@ subtitle: Petri Paavola / Microsoft MVP
 		line-height: 1.35;
 	}
 
+	.tool-card .hero-html {
+		color: #c7332e;
+	}
+
 	.tool-card p {
 		margin: 0;
 		line-height: 1.58;
@@ -240,7 +246,7 @@ subtitle: Petri Paavola / Microsoft MVP
 			reduce manual work, and make troubleshooting less painful.
 		</p>
 		<div class="landing-actions">
-			<a class="landing-btn primary" href="https://github.com/petripaavola/Intune">View Main GitHub Repository</a>
+			<a class="landing-btn primary" href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity">View Windows Troubleshooting Tool</a>
 			<a class="landing-btn secondary" href="/aboutme">About Petri Paavola</a>
 		</div>
 	</section>
@@ -250,7 +256,7 @@ subtitle: Petri Paavola / Microsoft MVP
 		<p>
 			I am Petri Paavola, CEO and Founder of
 			<a href="https://www.yodamiitti.fi/en-us">Yodamiitti Oy</a>,
-			and Microsoft MVP (Windows and Devices).
+			and Microsoft MVP - Windows and Intune.
 			I work mainly with Windows Autopilot, Microsoft Intune, PowerShell, Graph API, and Microsoft 365.
 		</p>
 		<p>
@@ -266,35 +272,51 @@ subtitle: Petri Paavola / Microsoft MVP
 
 	<div class="tools-grid">
 		<article class="tool-card">
-			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
+			<h3>IntuneDeviceDetailsGUI-<span class="hero-html">HTML</span></h3>
 			<p>
-				Analyze Intune Management Extension logs and generate a clear HTML timeline and diagnostics report.
-			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>IntuneDeviceDetailsGUI</h3>
-			<p>
-				See device-related Intune configurations and assignments in one view, including assignment reasoning.
+				See device-related Intune configurations and assignments in one view, with the new HTML experience highlighting why each item is targeted.
 			</p>
 			<a href="https://github.com/petripaavola/IntuneDeviceDetailsGUI">Open GitHub Project</a>
 		</article>
 
 		<article class="tool-card">
+			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
+			<p>
+				Analyze Intune Management Extension logs and generate a clear HTML report for faster troubleshooting and timeline analysis.
+			</p>
+			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>Get-WindowsTroubleshootingReportCommunity</h3>
+			<p>
+				Create a practical Windows troubleshooting report for faster investigation of device health, configuration, and support cases.
+			</p>
+			<a href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>Get-IntuneAppAssignmentsAndRelationsReport</h3>
+			<p>
+				Map Intune app assignments and relationships into a clearer report for faster analysis of targeting and dependency logic.
+			</p>
+			<a href="https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
 			<h3>ClipboardTools</h3>
 			<p>
-				PowerShell helper toolset for Graph API tasks, plus utilities for JSON, XML, and Base64 workflows.
+				Use PowerShell helper tools for Graph API work plus everyday JSON, XML, and Base64 admin workflows.
 			</p>
 			<a href="https://github.com/petripaavola/ClipboardTools">Open GitHub Project</a>
 		</article>
 
 		<article class="tool-card">
-			<h3>Intune Repository (Reports and More)</h3>
+			<h3>GitHub Main Page</h3>
 			<p>
-				Additional community scripts and reports, including Intune application assignment reporting.
+				Browse my main GitHub page for additional community tools, scripts, experiments, and ongoing updates.
 			</p>
-			<a href="https://github.com/petripaavola/Intune">Open GitHub Project</a>
+			<a href="https://github.com/petripaavola">Open GitHub Profile</a>
 		</article>
 	</div>
 </div>

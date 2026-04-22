@@ -22,10 +22,12 @@ author: Petri Paavola
 navbar-links:
   About Petri: "aboutme"
   CommunityTools:
+    - IntuneDeviceDetailsGUI-HTML: "https://github.com/petripaavola/IntuneDeviceDetailsGUI"
     - Get-IntuneManagementExtensionDiagnostics: "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
-    - IntuneDeviceDetailsGUI: "https://github.com/petripaavola/IntuneDeviceDetailsGUI"
-    - Intune App Assignment Report: "https://github.com/petripaavola/Intune/tree/master/Reports"
+    - Get-WindowsTroubleshootingReportCommunity: "https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity"
+    - Get-IntuneAppAssignmentsAndRelationsReport: "https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport"
     - ClipboardTools: "https://github.com/petripaavola/ClipboardTools"
+    - GitHub Main Page: "https://github.com/petripaavola"
   #Author's home: "https://intune.ninja"
 
 ################

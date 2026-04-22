@@ -87,6 +87,34 @@ subtitle: Petri Paavola
 		margin-bottom: 0;
 	}
 
+	.focus-grid {
+		display: grid;
+		gap: 12px;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		margin: 8px 0 14px;
+	}
+
+	.focus-card {
+		padding: 14px;
+		border: 1px solid #dde6f1;
+		border-radius: 12px;
+		background: #f9fcff;
+	}
+
+	.focus-card h3 {
+		margin: 0 0 8px;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-size: 0.98rem;
+		color: #163457;
+	}
+
+	.focus-card p {
+		margin: 0;
+		font-size: 0.97rem;
+		line-height: 1.6;
+		color: #4f607a;
+	}
+
 	.tools-grid {
 		display: grid;
 		gap: 14px;
@@ -107,6 +135,10 @@ subtitle: Petri Paavola
 		margin: 0 0 8px;
 		font-family: "Space Grotesk", "Segoe UI", sans-serif;
 		font-size: 1.02rem;
+	}
+
+	.tool-card .hero-html {
+		color: #c7332e;
 	}
 
 	.tool-card p {
@@ -146,11 +178,11 @@ subtitle: Petri Paavola
 		<h1>Petri Paavola</h1>
 		<p>
 			CEO / Founder at <a href="https://www.yodamiitti.fi/en-us">Yodamiitti Oy</a>, Senior Modern Management Principal,
-			and Microsoft MVP focused on Windows, Intune, and practical admin tooling.
+			and Microsoft MVP - Windows and Intune.
 		</p>
 		<div class="about-meta">
 			<a class="about-pill" href="mailto:Petri.Paavola@yodamiitti.fi">Petri.Paavola@yodamiitti.fi</a>
-			<a class="about-pill" href="https://mvp.microsoft.com/en-US/mvp/profile/cdb970c0-3c9a-e411-93f2-9cb65495d3c4">Microsoft MVP Profile</a>
+			<a class="about-pill" href="https://mvp.microsoft.com/en-US/mvp/profile/cdb970c0-3c9a-e411-93f2-9cb65495d3c4">Microsoft MVP - Windows and Intune</a>
 			<a class="about-pill" href="https://github.com/petripaavola">GitHub</a>
 			<a class="about-pill" href="https://www.linkedin.com/in/petri-paavola">LinkedIn</a>
 		</div>
@@ -159,12 +191,33 @@ subtitle: Petri Paavola
 	<h2 class="about-title">Background</h2>
 	<section class="about-panel">
 		<p>
-			Petri Paavola has been a Microsoft MVP for 14 years and has more than 24 years of experience in IT.
+			Petri Paavola has been a Microsoft MVP for 15 years and has more than 25 years of experience in the IT industry.
 		</p>
 		<p>
-			Today, his daily focus is Modern Management with Windows Autopilot, Microsoft Intune (including ConfigMgr / co-management),
-			Entra ID, PowerShell, Graph API, and Microsoft 365.
+			Daily focus areas are built around Intune, Windows, and PowerShell, with closely related technologies used in modern management and automation work.
 		</p>
+		<div class="focus-grid">
+			<div class="focus-card">
+				<h3>Intune</h3>
+				<p>
+					Device management, application deployment, configuration profiles, compliance policies, remediation, reporting,
+					and ConfigMgr / co-management scenarios.
+				</p>
+			</div>
+			<div class="focus-card">
+				<h3>Windows</h3>
+				<p>
+					Windows Autopilot, endpoint configuration, troubleshooting, deployment workflows, and broader modern workplace operations.
+				</p>
+			</div>
+			<div class="focus-card">
+				<h3>PowerShell</h3>
+				<p>
+					Automation, tooling, Microsoft Graph API integrations, Entra ID related administration, data handling,
+					and script-based troubleshooting.
+				</p>
+			</div>
+		</div>
 		<p>
 			He also has a strong on-premises background in Active Directory, Group Policy, ConfigMgr, MDT, and task sequence-based deployment operations.
 		</p>
@@ -176,36 +229,51 @@ subtitle: Petri Paavola
 	<h2 class="about-title">CommunityTools</h2>
 	<div class="tools-grid">
 		<article class="tool-card">
-			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
+			<h3>IntuneDeviceDetailsGUI-<span class="hero-html">HTML</span></h3>
 			<p>
-				Analyzes Intune Management Extension logs and creates a rich HTML report with timeline insights.
-				Includes LogViewerUI features for deeper troubleshooting workflows.
-			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
-		</article>
-
-		<article class="tool-card">
-			<h3>IntuneDeviceDetailsGUI</h3>
-			<p>
-				Shows device-related Intune configurations and assignments in one view, including why each app or policy is targeted.
+				See device-related Intune configurations and assignments in one view, with the new HTML experience highlighting why each item is targeted.
 			</p>
 			<a href="https://github.com/petripaavola/IntuneDeviceDetailsGUI">Open GitHub Project</a>
 		</article>
 
 		<article class="tool-card">
+			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
+			<p>
+				Analyze Intune Management Extension logs and generate a clear HTML report for faster troubleshooting and timeline analysis.
+			</p>
+			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>Get-WindowsTroubleshootingReportCommunity</h3>
+			<p>
+				Create a practical Windows troubleshooting report for faster investigation of device health, configuration, and support cases.
+			</p>
+			<a href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>Get-IntuneAppAssignmentsAndRelationsReport</h3>
+			<p>
+				Map Intune app assignments and relationships into a clearer report for faster analysis of targeting and dependency logic.
+			</p>
+			<a href="https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
 			<h3>ClipboardTools</h3>
 			<p>
-				A PowerShell helper toolkit for Graph API and everyday JSON, XML, and Base64 admin workflows.
+				Use PowerShell helper tools for Graph API work plus everyday JSON, XML, and Base64 admin workflows.
 			</p>
 			<a href="https://github.com/petripaavola/ClipboardTools">Open GitHub Project</a>
 		</article>
 
 		<article class="tool-card">
-			<h3>Intune Repository (More Tools and Reports)</h3>
+			<h3>GitHub Main Page</h3>
 			<p>
-				Additional scripts, reports, and practical examples for Microsoft Intune and endpoint management work.
+				Browse my main GitHub page for additional community tools, scripts, experiments, and ongoing updates.
 			</p>
-			<a href="https://github.com/petripaavola/Intune">Open GitHub Project</a>
+			<a href="https://github.com/petripaavola">Open GitHub Profile</a>
 		</article>
 	</div>
 </div>
