@@ -193,6 +193,25 @@ subtitle: Petri Paavola / Microsoft MVP - Windows and Intune
 		border-radius: 14px;
 		background: #fff;
 		box-shadow: 0 14px 28px rgba(16, 34, 56, 0.06);
+		text-decoration: none;
+		color: inherit;
+		cursor: pointer;
+		transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+	}
+
+	.tool-card:hover,
+	.tool-card:focus {
+		text-decoration: none;
+		color: inherit;
+		transform: translateY(-4px);
+		box-shadow: 0 22px 44px rgba(16, 34, 56, 0.14);
+		border-color: #9bbdd8;
+		outline: none;
+	}
+
+	.tool-card:focus-visible {
+		outline: 2px solid #0d6b9a;
+		outline-offset: 2px;
 	}
 
 	.tool-card h3 {
@@ -212,11 +231,19 @@ subtitle: Petri Paavola / Microsoft MVP - Windows and Intune
 		color: #4d5f7a;
 	}
 
-	.tool-card a {
+	.card-cta {
+		display: block;
 		margin-top: auto;
 		padding-top: 14px;
 		font-family: "Space Grotesk", "Segoe UI", sans-serif;
 		font-weight: 700;
+		font-size: 0.9rem;
+		color: #0d6b9a;
+		transition: color 0.15s ease;
+	}
+
+	.tool-card:hover .card-cta {
+		color: #0a567b;
 	}
 
 	@media (max-width: 767px) {
@@ -257,52 +284,52 @@ subtitle: Petri Paavola / Microsoft MVP - Windows and Intune
 	</p>
 
 	<div class="tools-grid">
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola/IntuneDeviceDetailsGUI" target="_blank" rel="noopener">
 			<h3>IntuneDeviceDetailsGUI-<span class="hero-html">HTML</span></h3>
 			<p>
-				See device-related Intune configurations and assignments in one view, with the new HTML experience highlighting why each item is targeted.
+				The "Resultant Set of Policy" for Intune. See all device assignments — apps, policies, scripts — with Settings Catalog conflict detection, Win32 app script content, remediation output, and more. All delivered as a beautiful, searchable HTML report.
 			</p>
-			<a href="https://github.com/petripaavola/IntuneDeviceDetailsGUI">Open GitHub Project</a>
-		</article>
+			<span class="card-cta">Open on GitHub &rarr;</span>
+		</a>
 
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics" target="_blank" rel="noopener">
 			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
 			<p>
-				Analyze Intune Management Extension logs and generate a clear HTML report for faster troubleshooting and timeline analysis.
+				Analyzes Intune Management Extension logs and builds an interactive HTML timeline of Win32App, WinGetApp, PowerShell scripts, remediations, and Autopilot ESP phases — with a built-in log viewer that beats CMTrace.
 			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
-		</article>
+			<span class="card-cta">Open on GitHub &rarr;</span>
+		</a>
 
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity" target="_blank" rel="noopener">
 			<h3>Get-WindowsTroubleshootingReportCommunity</h3>
 			<p>
-				Create a practical Windows troubleshooting report for faster investigation of device health, configuration, and support cases.
+				Unifies Windows Event Logs and Intune log files into a single interactive HTML timeline with real-time filtering and GUID-to-name resolution — built for faster incident investigation and support cases.
 			</p>
-			<a href="https://github.com/petripaavola/Get-WindowsTroubleshootingReportCommunity">Open GitHub Project</a>
-		</article>
+			<span class="card-cta">Open on GitHub &rarr;</span>
+		</a>
 
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport" target="_blank" rel="noopener">
 			<h3>Get-IntuneAppAssignmentsAndRelationsReport</h3>
 			<p>
-				Map Intune app assignments and relationships into a clearer report for faster analysis of targeting and dependency logic.
+				Generates a clear HTML report of all Intune app assignments and relationships, making it easy to trace app targeting, dependencies, and supersedence logic across your environment.
 			</p>
-			<a href="https://github.com/petripaavola/Get-IntuneAppAssignmentsAndRelationsReport">Open GitHub Project</a>
-		</article>
+			<span class="card-cta">Open on GitHub &rarr;</span>
+		</a>
 
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola/ClipboardTools" target="_blank" rel="noopener">
 			<h3>ClipboardTools</h3>
 			<p>
-				Use PowerShell helper tools for Graph API work plus everyday JSON, XML, and Base64 admin workflows.
+				PowerShell clipboard utilities for daily admin work: validate and format JSON, XML, Base64, and PowerShell syntax directly from your clipboard — ideal for Graph API and Intune scripting workflows.
 			</p>
-			<a href="https://github.com/petripaavola/ClipboardTools">Open GitHub Project</a>
-		</article>
+			<span class="card-cta">Open on GitHub &rarr;</span>
+		</a>
 
-		<article class="tool-card">
+		<a class="tool-card" href="https://github.com/petripaavola" target="_blank" rel="noopener">
 			<h3>GitHub Main Page</h3>
 			<p>
-				Browse my main GitHub page for additional community tools, scripts, experiments, and ongoing updates.
+				Browse all community tools, scripts, experiments, and ongoing updates on the main GitHub profile.
 			</p>
-			<a href="https://github.com/petripaavola">Open GitHub Profile</a>
-		</article>
+			<span class="card-cta">Open GitHub Profile &rarr;</span>
+		</a>
 	</div>
 </div>
