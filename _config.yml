@@ -20,12 +20,12 @@ author: Petri Paavola
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Community Tools:
-    - Get-IntuneManagementExtensionDiagnostics (Updated): "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
+  About Petri: "aboutme"
+  CommunityTools:
+    - Get-IntuneManagementExtensionDiagnostics: "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics"
     - IntuneDeviceDetailsGUI: "https://github.com/petripaavola/IntuneDeviceDetailsGUI"
-    - Intune Application assignment report: "https://github.com/petripaavola/Intune/tree/master/Reports"
-    - ClipboardTools (Graph API helper tools) (New): "https://github.com/petripaavola/ClipboardTools"
+    - Intune App Assignment Report: "https://github.com/petripaavola/Intune/tree/master/Reports"
+    - ClipboardTools: "https://github.com/petripaavola/ClipboardTools"
   #Author's home: "https://intune.ninja"
 
 ################
@@ -128,19 +128,19 @@ keywords: "Microsoft,MVP,Intune,Autopilot,ConfigMgr,Co-Management,Powershell,Gra
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 #navbar-col: "#EAEAEA"
-navbar-col: "#1b283c"
+navbar-col: "#102038"
 #navbar-text-col: "#404040"
-navbar-text-col: "#FFFFFF"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
+navbar-text-col: "#F4FAFF"
+navbar-border-col: "#2F4F72"
+page-col: "#F8FBFF"
+text-col: "#24344D"
+link-col: "#0D6B9A"
+hover-col: "#EA7F2D"
 #footer-col: "#EAEAEA"
-footer-col: "#F8F8F8"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-col: "#ECF3FA"
+footer-text-col: "#4C607D"
+footer-link-col: "#163457"
+footer-hover-col: "#0D6B9A"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

@@ -1,6 +1,300 @@
 ---
-layout: home
+layout: page
 title: Intune.ninja
 subtitle: Petri Paavola / Microsoft MVP
 ---
-<p style="text-align:center">Blogs, tips, tricks and tools for Windows/Intune/Microsoft365/Powershell/GraphAPI</p>
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap");
+
+	.ninja-landing {
+		--ink: #102038;
+		--muted: #556176;
+		--line: #d6deea;
+		--panel: #ffffff;
+		--hero-a: #f5fbff;
+		--hero-b: #e6f4ff;
+		--accent: #0d6b9a;
+		--accent-2: #ea7f2d;
+		position: relative;
+		margin-top: 8px;
+		color: var(--ink);
+		font-family: "Source Serif 4", Georgia, serif;
+	}
+
+	.ninja-landing::before,
+	.ninja-landing::after {
+		content: "";
+		position: absolute;
+		z-index: 0;
+		pointer-events: none;
+	}
+
+	.ninja-landing::before {
+		top: -20px;
+		right: -30px;
+		width: 220px;
+		height: 220px;
+		border-radius: 999px;
+		background: radial-gradient(circle, rgba(13, 107, 154, 0.18) 0%, rgba(13, 107, 154, 0) 70%);
+	}
+
+	.ninja-landing::after {
+		left: -40px;
+		bottom: 100px;
+		width: 180px;
+		height: 180px;
+		border-radius: 999px;
+		background: radial-gradient(circle, rgba(234, 127, 45, 0.18) 0%, rgba(234, 127, 45, 0) 70%);
+	}
+
+	.ninja-landing > * {
+		position: relative;
+		z-index: 1;
+	}
+
+	@keyframes riseIn {
+		from {
+			opacity: 0;
+			transform: translateY(14px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.landing-hero,
+	.about-panel,
+	.tools-intro,
+	.tool-card {
+		opacity: 0;
+		animation: riseIn 0.75s ease forwards;
+	}
+
+	.landing-hero { animation-delay: 0.05s; }
+	.about-panel { animation-delay: 0.15s; }
+	.tools-intro { animation-delay: 0.24s; }
+	.tool-card:nth-child(1) { animation-delay: 0.32s; }
+	.tool-card:nth-child(2) { animation-delay: 0.4s; }
+	.tool-card:nth-child(3) { animation-delay: 0.48s; }
+	.tool-card:nth-child(4) { animation-delay: 0.56s; }
+
+	.landing-hero {
+		margin: 8px 0 26px;
+		padding: 28px;
+		border: 1px solid var(--line);
+		border-radius: 16px;
+		background: linear-gradient(136deg, var(--hero-a) 0%, var(--hero-b) 100%);
+		box-shadow: 0 18px 36px rgba(17, 44, 78, 0.08);
+	}
+
+	.landing-tag {
+		display: inline-block;
+		margin-bottom: 10px;
+		padding: 5px 10px;
+		border-radius: 999px;
+		background: rgba(13, 107, 154, 0.14);
+		color: #0a567b;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-weight: 700;
+		font-size: 0.84rem;
+		letter-spacing: 0.04em;
+	}
+
+	.landing-hero h1 {
+		margin: 0 0 8px;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+		line-height: 1.2;
+		color: #0b1f37;
+	}
+
+	.landing-hero p {
+		margin: 0 0 18px;
+		font-size: 1.07rem;
+		line-height: 1.55;
+		color: #2c3f5f;
+	}
+
+	.landing-actions {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+
+	.landing-btn {
+		display: inline-block;
+		padding: 9px 14px;
+		border-radius: 999px;
+		text-decoration: none;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-weight: 700;
+		font-size: 0.92rem;
+		transition: transform 0.15s ease, box-shadow 0.15s ease;
+	}
+
+	.landing-btn:hover {
+		text-decoration: none;
+		transform: translateY(-1px);
+	}
+
+	.landing-btn.primary {
+		background: #0d6b9a;
+		color: #fff;
+		box-shadow: 0 10px 20px rgba(13, 107, 154, 0.24);
+	}
+
+	.landing-btn.secondary {
+		background: #fff;
+		color: #0d6b9a;
+		border: 1px solid #bdd5e8;
+	}
+
+	.section-title {
+		margin: 30px 0 14px;
+		padding-bottom: 8px;
+		border-bottom: 2px solid #e6edf5;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-size: 1.25rem;
+		color: #132947;
+	}
+
+	.about-panel {
+		padding: 18px 18px 8px;
+		border: 1px solid #e1e8f2;
+		border-radius: 14px;
+		background: var(--panel);
+		box-shadow: 0 12px 24px rgba(17, 44, 78, 0.05);
+	}
+
+	.about-panel p {
+		color: var(--muted);
+		line-height: 1.65;
+	}
+
+	.tools-intro {
+		margin-bottom: 14px;
+		color: #415473;
+	}
+
+	.tools-grid {
+		display: grid;
+		gap: 14px;
+		grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+	}
+
+	.tool-card {
+		display: flex;
+		flex-direction: column;
+		padding: 17px;
+		border: 1px solid #dde6f1;
+		border-radius: 14px;
+		background: #fff;
+		box-shadow: 0 14px 28px rgba(16, 34, 56, 0.06);
+	}
+
+	.tool-card h3 {
+		margin: 0 0 8px;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-size: 1.03rem;
+		line-height: 1.35;
+	}
+
+	.tool-card p {
+		margin: 0;
+		line-height: 1.58;
+		color: #4d5f7a;
+	}
+
+	.tool-card a {
+		margin-top: auto;
+		padding-top: 14px;
+		font-family: "Space Grotesk", "Segoe UI", sans-serif;
+		font-weight: 700;
+	}
+
+	@media (max-width: 767px) {
+		.landing-hero,
+		.about-panel,
+		.tool-card {
+			border-radius: 12px;
+		}
+
+		.landing-hero {
+			padding: 22px 18px;
+		}
+
+		.ninja-landing::before,
+		.ninja-landing::after {
+			display: none;
+		}
+	}
+</style>
+
+<div class="ninja-landing">
+	<section class="landing-hero">
+		<span class="landing-tag">COMMUNITY TOOLS</span>
+		<h1>Intune.Ninja for Real-World Admin Work</h1>
+		<p>
+			Battle-tested tools and scripts for Intune and Microsoft 365 operations. Built to cut investigation time,
+			reduce manual work, and make troubleshooting less painful.
+		</p>
+		<div class="landing-actions">
+			<a class="landing-btn primary" href="https://github.com/petripaavola/Intune">View Main GitHub Repository</a>
+			<a class="landing-btn secondary" href="/aboutme">About Petri Paavola</a>
+		</div>
+	</section>
+
+	<h2 class="section-title">About Me</h2>
+	<section class="about-panel">
+		<p>
+			I am Petri Paavola, CEO and Founder of
+			<a href="https://www.yodamiitti.fi/en-us">Yodamiitti Oy</a>,
+			and Microsoft MVP (Windows and Devices).
+			I work mainly with Windows Autopilot, Microsoft Intune, PowerShell, Graph API, and Microsoft 365.
+		</p>
+		<p>
+			My mission is simple: help admins solve problems faster with practical tools that work in production,
+			not only in demos.
+		</p>
+	</section>
+
+	<h2 class="section-title">CommunityTools</h2>
+	<p class="tools-intro">
+		Tool-specific areas below take you directly to the source code and releases on GitHub.
+	</p>
+
+	<div class="tools-grid">
+		<article class="tool-card">
+			<h3>Get-IntuneManagementExtensionDiagnostics</h3>
+			<p>
+				Analyze Intune Management Extension logs and generate a clear HTML timeline and diagnostics report.
+			</p>
+			<a href="https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>IntuneDeviceDetailsGUI</h3>
+			<p>
+				See device-related Intune configurations and assignments in one view, including assignment reasoning.
+			</p>
+			<a href="https://github.com/petripaavola/IntuneDeviceDetailsGUI">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>ClipboardTools</h3>
+			<p>
+				PowerShell helper toolset for Graph API tasks, plus utilities for JSON, XML, and Base64 workflows.
+			</p>
+			<a href="https://github.com/petripaavola/ClipboardTools">Open GitHub Project</a>
+		</article>
+
+		<article class="tool-card">
+			<h3>Intune Repository (Reports and More)</h3>
+			<p>
+				Additional community scripts and reports, including Intune application assignment reporting.
+			</p>
+			<a href="https://github.com/petripaavola/Intune">Open GitHub Project</a>
+		</article>
+	</div>
+</div>
